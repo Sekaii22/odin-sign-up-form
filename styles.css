@@ -7,7 +7,170 @@
     font-display: swap;
 }
 
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
 
-.test-text {
-    color: plum;
+body {
+    min-height: 100vh;
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.content {
+    display: flex;
+    width: 100%;
+}
+
+/* left content */
+.left-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex: 1;
+
+    background-image: url(images/halie-west-25xggax4bSA-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #DDDDDD;
+    padding-top: 10%;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+    background-color: rgba(0,0,0, 0.4);
+    padding: 10px;
+}
+
+.odin-img-logo {
+    width: 80px;
+    height: auto;
+}
+
+.odin-text-logo {
+    font-family: 'Norse', sans-serif;
+    font-size: 5rem;
+}
+
+.credit {
+    font-size: 0.7rem;
+    text-align: center;
+    padding: 20px 10px 10px 10px ;
+}
+
+.underlined {
+    text-decoration: underline;
+}
+
+/* right content */
+.right-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+    flex: 2
+}
+
+.top, 
+.form-container, 
+.bottom {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+/* right top content */
+.top {
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+.para1,
+.para2 {
+    padding: 12px 0;
+    max-inline-size: 66ch;
+}
+
+.para1 p {
+    margin-bottom: 3px;
+}
+
+/* right middle content */
+.form-container {
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.2);
+    padding-top: 18px;
+    padding-bottom: 18px;
+}
+
+.call-to-action {
+    font-weight: bold;
+    font-size: 1.3rem;
+    margin-bottom: 20px;
+}
+
+label {
+    font-weight: bold;
+    font-size: 0.7rem;
+    letter-spacing: 0.1rem;
+    color: #333333;
+    display: block;
+    margin-bottom: 3px;
+}
+
+.form-row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.form-row > div {
+    padding-top: 9px;
+    padding-bottom: 9px;
+    margin-right: 60px;
+}
+
+input[type=text],
+input[type=email],
+input[type=tel],
+input[type=password] {
+    height: 36px;
+    width: 300px;
+    padding: 0 14px;
+    border-color: #e5e7eb81;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+input[type=email]:invalid {
+    border-color: red;
+}
+
+input:focus {
+    outline: 2px solid rgb(0, 0, 255, 0.5);
+    border: none;
+}
+
+/* right bottom content */
+.create-acc-btn {
+    background-color: #596D48;
+    color: #DDDDDD;
+    border: none;
+    border-radius: 5px;
+    padding: 12px 36px;
+    font-size: 1rem;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.bottom p {
+    font-size: 1rem;
+}
+
+.bottom a {
+    text-decoration: none;
+    color: #596D48;
 }
