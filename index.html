@@ -28,22 +28,22 @@
             </div>
 
             <div class="form-container">
-                <p class="call-to-action">Let's do this!</p>
                 <form action="" method="post">
+                    <p class="call-to-action">Let's do this!</p>
                     <div class="form-row">
                         <div>
                             <label for="first-name">FIRST NAME</label>
-                            <input type="text" name="first-name" id="first-name">
+                            <input type="text" name="first-name" id="first-name" required>
                         </div>
                         <div>
                             <label for="last-name">LAST NAME</label>
-                            <input type="text" name="last-name" id="last-name">
+                            <input type="text" name="last-name" id="last-name" required>
                         </div>
                     </div>
                     <div class="form-row">
                         <div>
                             <label for="email">EMAIL</label>
-                            <input type="email" name="email" id="email">
+                            <input type="email" name="email" id="email" required>
                         </div>
                         <div>
                             <label for="phone-num">PHONE NUMBER</label>
@@ -53,20 +53,22 @@
                     <div class="form-row">
                         <div>
                             <label for="pwd">PASSWORD</label>
-                            <input type="password" name="pwd" id="pwd">
+                            <input type="password" name="pwd" id="pwd" required>
                         </div>
                         <div>
                             <label for="pwd-confirm">CONFIRM PASSWORD</label>
-                            <input type="password" name="pwd-confirm" id="pwd-confirm">
+                            <input type="password" name="pwd-confirm" id="pwd-confirm" required>
                         </div>
                     </div>
                 </form>
             </div>
 
             <div class="bottom">
-                <button class="create-acc-btn">Create Account</button>
+                <button class="create-acc-btn" type="submit">Create Account</button>
                 <p>Already have an account? <a href="">Log in</a></p>
             </div>
+
+        <!-- TODO: FIX submit button, put it into form-->>
         </section>
     </div>
 </body>
