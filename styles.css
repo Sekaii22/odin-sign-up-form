@@ -77,15 +77,15 @@ body {
     flex: 2
 }
 
-.top, 
-.form-container, 
-.bottom {
+.heading, 
+.form-top,
+.form-bottom {
     padding-left: 50px;
     padding-right: 50px;
 }
 
-/* right top content */
-.top {
+/* right heading content */
+.heading {
     font-weight: bold;
     font-size: 1.3rem;
 }
@@ -100,11 +100,12 @@ body {
     margin-bottom: 3px;
 }
 
-/* right middle content */
-.form-container {
+/* form content */
+.form-top {
     box-shadow: 0 3px 8px rgba(0, 0, 0, 0.2);
     padding-top: 18px;
     padding-bottom: 18px;
+    margin-bottom: 40px;
 }
 
 .call-to-action {
@@ -154,7 +155,6 @@ input:focus {
     border: none;
 }
 
-/* right bottom content */
 .create-acc-btn {
     background-color: #596D48;
     color: #DDDDDD;
@@ -166,11 +166,11 @@ input:focus {
     margin-bottom: 30px;
 }
 
-.bottom p {
+.form-bottom p {
     font-size: 1rem;
 }
 
-.bottom a {
+.form-bottom a {
     text-decoration: none;
     color: #596D48;
 }

@@ -16,8 +16,9 @@
             </div>
             <p class="credit">Photo by <span class="underlined">Halie West</span> on <span class="underlined">Unsplash</span></p>
         </section>
+
         <section class="right-content">
-            <div class="top">
+            <div class="heading">
                 <div class="para1">
                     <p>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams.</p>
                     <p>Sign up <i>now</i> to get started.</p>
@@ -27,8 +28,8 @@
                 </div>
             </div>
 
-            <div class="form-container">
-                <form action="" method="post">
+            <form action="https://httpbin.org/post" method="post">
+                <div class="form-top">
                     <p class="call-to-action">Let's do this!</p>
                     <div class="form-row">
                         <div>
@@ -60,15 +61,16 @@
                             <input type="password" name="pwd-confirm" id="pwd-confirm" required>
                         </div>
                     </div>
-                </form>
-            </div>
+                </div>
 
-            <div class="bottom">
-                <button class="create-acc-btn" type="submit">Create Account</button>
-                <p>Already have an account? <a href="">Log in</a></p>
-            </div>
+                <div class="form-bottom">
+                    <button class="create-acc-btn" type="submit">Create Account</button>
+                    <p>Already have an account? <a href="">Log in</a></p>
+                </div>
+            </form>
 
-        <!-- TODO: FIX submit button, put it into form-->>
+
+        <!-- TODO: FIX submit button, put it into form-->
         </section>
     </div>
 </body>
