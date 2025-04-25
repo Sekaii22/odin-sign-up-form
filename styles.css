@@ -49,13 +49,13 @@ body {
 }
 
 .odin-img-logo {
-    width: 80px;
+    width: 100px;
     height: auto;
 }
 
 .odin-text-logo {
     font-family: 'Norse', sans-serif;
-    font-size: 5rem;
+    font-size: 7rem;
 }
 
 .credit {
@@ -74,7 +74,8 @@ body {
     flex-direction: column;
     justify-content: center;
     gap: 30px;
-    flex: 2
+    flex: 2;
+    padding: 60px 0; 
 }
 
 .heading, 
